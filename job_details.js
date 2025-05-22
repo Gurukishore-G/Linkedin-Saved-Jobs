@@ -13,13 +13,17 @@
     // Function to extract job details (company, title, location) from the current page
     function extractJobDetailsFromPage() {
         // Extract company names
-        const companyElements = document.querySelectorAll('div.OxRVYBPaMbQwEfslyYadmBWjwaQuFvi.t-14.t-black.t-normal');
+        // const companyElements = document.querySelectorAll('div.OxRVYBPaMbQwEfslyYadmBWjwaQuFvi.t-14.t-black.t-normal');
+        const companyElements = document.querySelectorAll('.pxUtFAnNAlQUqKbhgaSFYXfZujHHeMMyHYkPM.t-14.t-black.t-normal');
         
         // Extract job titles
-        const titleElements = document.querySelectorAll('span.mNiKOkGLXopRwvUjiHRjxdaEKEMEvBflk.t-16 a');
+        // const titleElements = document.querySelectorAll('span.mNiKOkGLXopRwvUjiHRjxdaEKEMEvBflk.t-16 a');
+        const titleElements = document.querySelectorAll('.t-roman.t-sans .display-flex a');
         
         // Extract locations
-        const locationElements = document.querySelectorAll('div[class*="xIrTcpbeEHJpnjhTmlNxNrOBpJwtvTjpecBg"].t-14.t-normal');
+        // const locationElements = document.querySelectorAll('div[class*="xIrTcpbeEHJpnjhTmlNxNrOBpJwtvTjpecBg"].t-14.t-normal');
+        const locationElements = document.querySelectorAll('.dckMfiyJszFLylsZdQUdDdjNLVwdiBBmvz.t-14.t-normal');
+
         
         const jobDetails = [];
         const maxElements = Math.max(companyElements.length, titleElements.length, locationElements.length);
