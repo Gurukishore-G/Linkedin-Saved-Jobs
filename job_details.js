@@ -14,7 +14,7 @@
     function extractJobDetailsFromPage() {
         // Extract company names
         // const companyElements = document.querySelectorAll('div.OxRVYBPaMbQwEfslyYadmBWjwaQuFvi.t-14.t-black.t-normal');
-        const companyElements = document.querySelectorAll('.pxUtFAnNAlQUqKbhgaSFYXfZujHHeMMyHYkPM.t-14.t-black.t-normal');
+        const companyElements = document.querySelectorAll('.aCtCxIJrwCWxTlcNQMOTEUGZDAdKfjBdVvxN.t-14.t-black.t-normal'); 
         
         // Extract job titles
         // const titleElements = document.querySelectorAll('span.mNiKOkGLXopRwvUjiHRjxdaEKEMEvBflk.t-16 a');
@@ -22,7 +22,7 @@
         
         // Extract locations
         // const locationElements = document.querySelectorAll('div[class*="xIrTcpbeEHJpnjhTmlNxNrOBpJwtvTjpecBg"].t-14.t-normal');
-        const locationElements = document.querySelectorAll('.dckMfiyJszFLylsZdQUdDdjNLVwdiBBmvz.t-14.t-normal');
+        const locationElements = document.querySelectorAll('.VvrtuFBNYqSqVgbcBXuHCcRUYBoEpyQvYYWY.t-14.t-normal');
 
         
         const jobDetails = [];
